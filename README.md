@@ -22,16 +22,3 @@ A full-stack real-time chat application built with **Node.js**, **Express**, **R
 ✅ Online/offline status tracking  
 ✅ Responsive UI with Tailwind CSS
 
-## Chat-app folder structure
-
-📦chat-app
-┣ 📂client # React frontend
-┃ ┣ 📂components # Chat UI components
-┃ ┣ 📂pages # Login, Register, Chat pages
-┃ ┗ 📜App.jsx # Root app file
-┣ 📂server # Node.js backend
-┃ ┣ 📂routes # Auth and chat routes
-┃ ┣ 📂models # Mongoose schemas
-┃ ┗ 📜socket.js # Socket.IO server logic
-┣ 📜.env # Environment variables
-┣ 📜package.json
